@@ -1,5 +1,28 @@
 /* COMMON */
 
+body {
+  min-width: 360px;
+  font-family: "Inter", sans-serif;
+}
+
+.small_wrapper {
+  padding: 50px 10%;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
 .section-padding {
   padding: 50px 0;
 }
@@ -16,6 +39,37 @@
   color: #fff;
 }
 
+/* Buttons */
+.btn_create_account {
+  background-color: #579aff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.btn_sign_in {
+  background-color: #fff;
+  color: #7b7b7b;
+  font-weight: 700;
+  font-size: 12px;
+  position: relative;
+}
+
+.btn-icon {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 15px;
+  top: 5px;
+}
+
+.btn_custom {
+  background-color: #fff;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  color: #006aff;
+}
+
 /* COMMON END */
 /* --------------------------------------------------------- */
 /* HEADER */
@@ -24,16 +78,20 @@
   padding: 15px 0;
 }
 
+.header_logo {
+  width: 150px;
+}
+
+.header_burger_menu {
+  text-align: right;
+  font-size: 20px;
+  padding-right: 30px;
+  color: #006aff;
+}
+
 .header_nav a {
   color: #031d4f;
   padding: 15px 0;
-}
-
-.btn_custom {
-  background-color: #fff;
-  border: 1px solid #006aff;
-  border-radius: 5px;
-  color: #006aff;
 }
 
 /* HEADER END */
@@ -44,7 +102,7 @@
 
 .jumbotron {
   background-image: url(../img/ms-jumbo.jpg);
-  height: 500px;
+  margin-bottom: 0;
 }
 
 .jumbotron-form {
@@ -52,4 +110,54 @@
   background-color: #fff;
   border-radius: 5px;
   padding: 30px;
+}
+
+.jumbotron-form-terms {
+  font-weight: 700;
+  font-size: 10px;
+  padding-top: 10px;
+  color: #031d4f;
+}
+
+.jumbotron-form-terms a {
+  text-decoration: underline;
+  color: #006aff;
+}
+
+/* Customer Stories Section */
+
+.customers {
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+.customers-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 18px;
+  color: #6f7b97;
+  padding-bottom: 15px;
+}
+
+.customers a i {
+  font-size: 10px;
+  padding-left: 5px;
+}
+
+/* How Section */
+
+.how ul {
+  padding: 30px 0;
+}
+
+.how li {
+  border-left: 1px solid #7b7b7b;
+  padding: 15px 0 15px 15px;
+  color: #7b7b7b;
+  font-size: 18px;
+}
+
+.how-teaser p {
+  font-size: 28px;
+  color: #6f7b97;
 }

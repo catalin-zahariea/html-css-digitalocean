@@ -12,8 +12,13 @@
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     
+    <!-- Inter Font Family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
     <!-- CUSTOM STYLE -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
@@ -25,17 +30,17 @@
             <div class="container">
                 <div class="row">
                     <!-- Logo Column -->
-                    <div class="col-xs-6 col-sm-2 col-md-2">
+                    <div class="col-xs-3 col-sm-3 col-md-2">
                         <div class="header_logo">
                             <img class="img-responsive" src="img/logo.png" alt="Digital Ocean Logo">
                         </div>
                      </div>
 
                     <!-- Menu Column -->
-                    <div class="xs-hidden col-sm-10 col-md-10 header_menu">
+                    <div class="hidden-xs hidden-sm col-md-10 header_menu">
                         <div class="row text-right">
 
-                            <div class="xs-hidden col-sm-6 col-md-6">
+                            <div class="col-md-6">
                                 <ul class="list-inline list-unstyled">
                                     <li>
                                         <a href="#">Products <i class="fas fa-chevron-down"></i></a>
@@ -55,7 +60,7 @@
                                 </ul>
                             </div>
 
-                            <div class="xs-hidden col-sm-6 col-md-6">
+                            <div class="col-md-6">
                                 <ul class="list-inline list-unstyled">
                                     <li>
                                         <a href="#">Docs</a>
@@ -79,7 +84,7 @@
                     </div>
 
                     <!-- Burger Menu -->
-                    <div class="visible-xs-inline-block">
+                    <div class="visible-xs visible-sm">
                         <div class="header_burger_menu">
                             <i class="fas fa-bars"></i>
                         </div>
@@ -99,9 +104,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-7 col-md-7 white">
-                        <h1>
-                            The simplest cloud platform for developers & teams
-                        </h1>
+                        <h1>The simplest cloud platform for developers & teams</h1>
                         <p>
                             Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
                         </p>
@@ -109,10 +112,10 @@
 
                     <div class="col-xs-12 col-sm-5 col-md-5">
                         <div class="jumbotron-form">
-                            <h2>Deploy your app in seconds.
+                            <h3>Deploy your app in seconds.
                                 <br>
                                 <span class="light-blue">Get started now</span>
-                            </h2>
+                            </h3>
 
                             <!-- Jumbotron Form -->
                             <form>
@@ -126,8 +129,106 @@
                                 </div>
                             </form>
 
-                            <div class="btn">
+                            <div class="btn btn-default btn-block btn_create_account">
+                                Create your account
+                            </div>
 
+                            <div class="btn btn-default btn-block btn_sign_in">
+                                <div class="btn-icon"><img class="img-responsive" src="img/google-icon.png" alt="Google Icon"></div>
+                                Sign up with google
+                            </div>
+
+                            <div class="jumbotron-form-terms">
+                                By signing up you agree to the <a href="#">Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Stories Section -->
+        <section class="section-padding customers"> 
+            <div class="container">
+                <div class="customers-title">Innovative businesses trust digitalocean</div>
+            </div>
+
+            <div class="customers-logos">
+                <ul class="list-unstyled list-inline text-center">
+                    <li>
+                        <img src="img/docker.svg" alt="Docker Logo">
+                    </li>
+
+                    <li>
+                        <img src="img/gitlab.svg" alt="GitLab Logo">
+                    </li>
+
+                    <li>
+                        <img src="img/slack.svg" alt="Slack Logo">
+                    </li>
+
+                    <li>
+                        <img src="img/hashicorp.svg" alt="Hashicorp Logo">
+                    </li>
+
+                    <li>
+                        <img src="img/hashicorp.svg" alt="Hashicorp Logo">
+                    </li>
+
+                    <li>
+                        <img src="img/splunk.svg" alt="Splunk Logo">
+                    </li>
+                </ul>
+            </div>
+
+            <a class="light-blue" href="#"> View customer stories <i class="fas fa-chevron-right"></i></a>
+        </section>
+
+        <!-- How Section -->
+        <section class="section-padding how">
+            <div class="container how-teaser text-center">
+                <h2 class="dark-blue">Deploy and scale seamlessly</h2>
+                <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+            </div>
+            <!-- How Steps -->
+            <div class="small_wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-3 col-md-3">
+                            <ul class="list-unstyled">
+                                <li>Deploy</li>
+                                <li>Manage</li>
+                                <li>Secure</li>
+                                <li>Scale</li>
+                                <li>Monitor</li>
+                            </ul>
+                        </div>
+    
+                        <div class="col-xs-12 col-sm-9 col-md-9">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <img src="img/cluster-deploy.svg" alt="Cluster Deploy">
+                                    <h4>Cluster Deployments</h4>
+                                    <p>Provision multiple Droplets (virtual machines) in seconds with out control panel, CLI, or directly againts our API.</p>
+                                </div>
+    
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <img src="img/optimized-compute.svg" alt="Optimized Compute">
+                                    <h4>Optimized compute types</h4>
+                                    <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                                </div>
+    
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <img src="img/one-click.svg" alt="One Click">
+                                    <h4>One-click apps</h4>
+                                    <p>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker and more.</p>
+                                </div>
+    
+                                <div class="col-xs-12 col-sm-6 col-md-6">
+                                    <img src="img/global.svg" alt="Global Availability">
+                                    <h4>Global availability</h4>
+                                    <p>Deploy to any of our data center regions around the world.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
