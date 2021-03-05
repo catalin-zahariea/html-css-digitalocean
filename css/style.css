@@ -61,6 +61,10 @@ h5 {
   padding: 30px 0;
 }
 
+.blue-gradient-bg .section-title h2 {
+  color: #fff;
+}
+
 /* Color */
 .blue-gradient-bg {
   background: linear-gradient(#006aff, #031d4f);
@@ -80,6 +84,10 @@ h5 {
 
 .white {
   color: #fff;
+}
+
+.footer-gradient-bg {
+  background: linear-gradient(#031d4f, #04225c);
 }
 
 /* Buttons */
@@ -111,6 +119,16 @@ h5 {
   border: 1px solid #006aff;
   border-radius: 5px;
   color: #006aff;
+}
+
+.btn_get_started {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #006aff;
+  font-weight: 500;
 }
 
 /* COMMON END */
@@ -211,7 +229,7 @@ h5 {
   position: relative;
 }
 
-.slide-img .slide-left-arrow {
+.platform .slide-img .slide-left-arrow {
   position: absolute;
   color: #6f7b97;
   top: 40%;
@@ -219,7 +237,7 @@ h5 {
   font-size: 60px;
 }
 
-.slide-img .slide-right-arrow {
+.platform .slide-img .slide-right-arrow {
   position: absolute;
   color: #031d4f;
   top: 40%;
@@ -346,4 +364,21 @@ h5 {
   top: 40%;
   right: -5%;
   font-size: 30px;
+}
+
+/* MAIN END */
+/* --------------------------------------------------------- */
+/* FOOTER */
+
+.footer-menu-nav,
+.footer-menu-nav a {
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+.footer-menu-nav-title {
+  font-size: 16px;
+  font-weight: 500;
 }
