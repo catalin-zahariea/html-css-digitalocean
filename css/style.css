@@ -35,13 +35,18 @@ h4 {
   font-size: 24px;
 }
 
+h5 {
+  color: #031d4f;
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* Sections */
 .section-padding {
   padding: 50px 0;
 }
 
 .section-title {
-  padding: 30px 0;
   text-align: center;
 }
 
@@ -198,23 +203,23 @@ h4 {
 
 /* Slide Section */
 
-.slide .xs-wrapper {
+.slide .xs-wrapper .slide-img {
   position: relative;
 }
 
-.slide .slide-left-arrow {
+.slide .slide-img .slide-left-arrow {
   position: absolute;
   color: #6f7b97;
-  top: 35%;
-  left: -10%;
+  top: 40%;
+  left: -15%;
   font-size: 60px;
 }
 
-.slide .slide-right-arrow {
+.slide .slide-img .slide-right-arrow {
   position: absolute;
   color: #031d4f;
-  top: 35%;
-  right: -10%;
+  top: 40%;
+  right: -15%;
   font-size: 60px;
 }
 
@@ -231,8 +236,7 @@ h4 {
 
 .slide .xs-wrapper li:first-child {
   background-color: #006aff;
-  height: 20px;
-  width: 20px;
+  padding: 5px;
   border: 1px solid #006aff;
   border-radius: 50%;
 }
@@ -240,8 +244,19 @@ h4 {
 .slide .xs-wrapper li {
   margin-top: 50px;
   background-color: #f3f5f9;
-  height: 20px;
-  width: 20px;
+  padding: 5px;
   border: 1px solid #006aff;
   border-radius: 50%;
+}
+
+/* Features Section */
+
+.features-item img {
+  padding: 15px 0;
+}
+
+.features-item p {
+  color: #6f7b97;
+  font-size: 18px;
+  padding: 15px 0;
 }
