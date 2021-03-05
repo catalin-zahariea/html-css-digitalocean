@@ -62,6 +62,10 @@ h5 {
 }
 
 /* Color */
+.blue-gradient-bg {
+  background: linear-gradient(#006aff, #031d4f);
+}
+
 .gray-bg {
   background-color: #f3f5f9;
 }
@@ -259,4 +263,10 @@ h5 {
   color: #6f7b97;
   font-size: 18px;
   padding: 15px 0;
+}
+
+/* Service Regions Section */
+
+.service-regions h2 {
+  color: #fff;
 }
