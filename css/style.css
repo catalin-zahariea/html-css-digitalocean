@@ -207,11 +207,11 @@ h5 {
 
 /* Slide Section */
 
-.slide .xs-wrapper .slide-img {
+.xs-wrapper .slide-img {
   position: relative;
 }
 
-.slide .slide-img .slide-left-arrow {
+.slide-img .slide-left-arrow {
   position: absolute;
   color: #6f7b97;
   top: 40%;
@@ -219,7 +219,7 @@ h5 {
   font-size: 60px;
 }
 
-.slide .slide-img .slide-right-arrow {
+.slide-img .slide-right-arrow {
   position: absolute;
   color: #031d4f;
   top: 40%;
@@ -227,25 +227,24 @@ h5 {
   font-size: 60px;
 }
 
-.slide .slide-undertitle {
+.slide-undertitle {
   font-size: 20px;
   color: #031d4f;
   text-align: center;
   padding: 30px 0;
 }
 
-.slide .xs-wrapper ul {
+.platform .xs-wrapper ul {
   text-align: center;
 }
 
-.slide .xs-wrapper li:first-child {
+.xs-wrapper li:first-child {
   background-color: #006aff;
   padding: 5px;
   border: 1px solid #006aff;
   border-radius: 50%;
 }
-
-.slide .xs-wrapper li {
+.xs-wrapper li {
   margin-top: 50px;
   background-color: #f3f5f9;
   padding: 5px;
@@ -276,7 +275,7 @@ h5 {
   padding: 10px 0;
 }
 
-.service-region-item::after {
+.service-region-item:not(:last-child)::after {
   content: "";
   padding-top: 10px;
   width: 95%;
@@ -286,18 +285,65 @@ h5 {
 .service-region-item div:first-child {
   text-transform: uppercase;
   font-weight: 500;
+  font-size: 12px;
 }
 
 .service-region-item div:nth-child(2) {
   color: #bbc5e7;
+  font-size: 12px;
 }
 
 .service-region-item a {
-  font-size: 14px;
+  font-size: 12px;
   color: #00d7d3;
 }
 
 .service-region-item a i {
   font-size: 10px;
   padding-left: 2px;
+}
+
+/* Testimonials Section */
+
+.testimonials .slide-img {
+  padding: 50px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.testimonials-quote {
+  color: #6f7b97;
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+.testimonials-author {
+  font-size: 12px;
+  color: #031d4f;
+  font-weight: 700;
+  padding-top: 15px;
+}
+
+.testimonials-author-position {
+  font-size: 12px;
+  font-weight: 300;
+  color: #031d4f;
+  padding-bottom: 15px;
+}
+
+.testimonials .slide-img .slide-left-arrow {
+  position: absolute;
+  color: #6f7b97;
+  top: 40%;
+  left: -5%;
+  font-size: 30px;
+}
+
+.testimonials .slide-img .slide-right-arrow {
+  position: absolute;
+  color: #031d4f;
+  top: 40%;
+  right: -5%;
+  font-size: 30px;
 }
