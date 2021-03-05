@@ -25,16 +25,18 @@
             <div class="container">
                 <div class="row">
                     <!-- Logo Column -->
-                    <div class="col-xs-6 col-sm-3 col-md-3 header_logo">
-                        <img src="img/logo.png" alt="Digital Ocean Logo">
-                    </div>
+                    <div class="col-xs-6 col-sm-2 col-md-2">
+                        <div class="header_logo">
+                            <img class="img-responsive" src="img/logo.png" alt="Digital Ocean Logo">
+                        </div>
+                     </div>
 
                     <!-- Menu Column -->
-                    <div class="xs-hidden col-sm-9 col-md-9 header_menu">
-                        <div class="row">
+                    <div class="xs-hidden col-sm-10 col-md-10 header_menu">
+                        <div class="row text-right">
 
                             <div class="xs-hidden col-sm-6 col-md-6">
-                                <ul>
+                                <ul class="list-inline list-unstyled">
                                     <li>
                                         <a href="#">Products <i class="fas fa-chevron-down"></i></a>
                                     </li>
@@ -54,7 +56,7 @@
                             </div>
 
                             <div class="xs-hidden col-sm-6 col-md-6">
-                                <ul>
+                                <ul class="list-inline list-unstyled">
                                     <li>
                                         <a href="#">Docs</a>
                                     </li>
@@ -68,7 +70,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="#" class="btn btn_custom">Sign Up</a>
+                                        <div class="btn btn_custom">Sign Up</div>
                                     </li>
                                 </ul>
                             </div>
@@ -94,7 +96,43 @@
     <main>
         <!-- Jumbotron Section -->
         <section class="section-padding jumbotron">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-7 col-md-7 white">
+                        <h1>
+                            The simplest cloud platform for developers & teams
+                        </h1>
+                        <p>
+                            Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
+                        </p>
+                    </div>
 
+                    <div class="col-xs-12 col-sm-5 col-md-5">
+                        <div class="jumbotron-form">
+                            <h2>Deploy your app in seconds.
+                                <br>
+                                <span class="light-blue">Get started now</span>
+                            </h2>
+
+                            <!-- Jumbotron Form -->
+                            <form>
+                                <div class="form-group">
+                                    <label class="sr-only" for="user-email">User Email</label>
+                                    <input type="email" class="form-control" id="user-email" name="user-email" placeholder="Email">
+                                </div>
+                                <div class="form-group">
+                                    <label class="sr-only" for="user-password">User Password</label>
+                                    <input type="password" class="form-control" id="user-password" name="user-password" placeholder="Password">
+                                </div>
+                            </form>
+
+                            <div class="btn">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- MAIN END -->

@@ -4,12 +4,36 @@
   padding: 50px 0;
 }
 
+.dark-blue {
+  color: #031d4f;
+}
+
+.light-blue {
+  color: #006aff;
+}
+
+.white {
+  color: #fff;
+}
+
 /* COMMON END */
 /* --------------------------------------------------------- */
 /* HEADER */
 
 .header_nav {
-  height: 100px;
+  padding: 15px 0;
+}
+
+.header_nav a {
+  color: #031d4f;
+  padding: 15px 0;
+}
+
+.btn_custom {
+  background-color: #fff;
+  border: 1px solid #006aff;
+  border-radius: 5px;
+  color: #006aff;
 }
 
 /* HEADER END */
@@ -21,4 +45,11 @@
 .jumbotron {
   background-image: url(../img/ms-jumbo.jpg);
   height: 500px;
+}
+
+.jumbotron-form {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 30px;
 }
