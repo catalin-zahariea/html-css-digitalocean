@@ -5,8 +5,14 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.small_wrapper {
-  padding: 50px 10%;
+.sm-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.xs-wrapper {
+  width: 50%;
+  margin: auto;
 }
 
 h1 {
@@ -23,8 +29,36 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-weight: 600;
+  color: #031d4f;
+  font-size: 24px;
+}
+
+/* Sections */
 .section-padding {
   padding: 50px 0;
+}
+
+.section-title {
+  padding: 30px 0;
+  text-align: center;
+}
+
+.section-title h2 {
+  color: #031d4f;
+  font-size: 40px;
+}
+
+.section-title p {
+  font-size: 32px;
+  color: #6f7b97;
+  padding: 30px 0;
+}
+
+/* Color */
+.gray-bg {
+  background-color: #f3f5f9;
 }
 
 .dark-blue {
@@ -126,11 +160,6 @@ h3 {
 
 /* Customer Stories Section */
 
-.customers {
-  background-color: #f3f5f9;
-  text-align: center;
-}
-
 .customers-title {
   text-transform: uppercase;
   font-weight: 500;
@@ -154,10 +183,65 @@ h3 {
   border-left: 1px solid #7b7b7b;
   padding: 15px 0 15px 15px;
   color: #7b7b7b;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 .how-teaser p {
   font-size: 28px;
   color: #6f7b97;
+}
+
+.how-steps p {
+  color: #6f7b97;
+  font-size: 20px;
+}
+
+/* Slide Section */
+
+.slide .xs-wrapper {
+  position: relative;
+}
+
+.slide .slide-left-arrow {
+  position: absolute;
+  color: #6f7b97;
+  top: 35%;
+  left: -10%;
+  font-size: 60px;
+}
+
+.slide .slide-right-arrow {
+  position: absolute;
+  color: #031d4f;
+  top: 35%;
+  right: -10%;
+  font-size: 60px;
+}
+
+.slide .slide-undertitle {
+  font-size: 20px;
+  color: #031d4f;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.slide .xs-wrapper ul {
+  text-align: center;
+}
+
+.slide .xs-wrapper li:first-child {
+  background-color: #006aff;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
+}
+
+.slide .xs-wrapper li {
+  margin-top: 50px;
+  background-color: #f3f5f9;
+  height: 20px;
+  width: 20px;
+  border: 1px solid #006aff;
+  border-radius: 50%;
 }
