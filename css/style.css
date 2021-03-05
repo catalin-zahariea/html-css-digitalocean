@@ -270,3 +270,34 @@ h5 {
 .service-regions h2 {
   color: #fff;
 }
+
+.service-region-item {
+  color: #f3f5f9;
+  padding: 10px 0;
+}
+
+.service-region-item::after {
+  content: "";
+  padding-top: 10px;
+  width: 95%;
+  border-bottom: 1px solid #fff;
+}
+
+.service-region-item div:first-child {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.service-region-item div:nth-child(2) {
+  color: #bbc5e7;
+}
+
+.service-region-item a {
+  font-size: 14px;
+  color: #00d7d3;
+}
+
+.service-region-item a i {
+  font-size: 10px;
+  padding-left: 2px;
+}
