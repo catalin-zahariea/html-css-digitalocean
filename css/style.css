@@ -61,7 +61,7 @@ h5 {
   padding: 30px 0;
 }
 
-.blue-gradient-bg .section-title h2 {
+.light-blue-bg .section-title h2 {
   color: #fff;
 }
 
@@ -72,6 +72,14 @@ h5 {
 
 .gray-bg {
   background-color: #f3f5f9;
+}
+
+.dark-blue-bg {
+  background-color: #031d4f;
+}
+
+.light-blue-bg {
+  background-color: #0034af;
 }
 
 .dark-blue {
@@ -370,9 +378,13 @@ h5 {
 /* --------------------------------------------------------- */
 /* FOOTER */
 
+footer {
+  position: relative;
+}
+
 .footer-menu-nav,
 .footer-menu-nav a {
-  color: #fff;
+  color: #a4aabc;
   font-weight: 300;
   line-height: 30px;
   font-size: 12px;
@@ -381,4 +393,75 @@ h5 {
 .footer-menu-nav-title {
   font-size: 16px;
   font-weight: 500;
+  color: #fff;
+}
+
+.footer-copyright,
+.footer-payoff,
+.footer-socials {
+  color: #a4aabc;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.footer-copyright {
+  padding-top: 15px;
+  font-weight: 500;
+}
+
+.footer-payoff {
+  font-weight: 100;
+}
+
+.footer-socials {
+  padding-top: 5px;
+  font-size: 16px;
+}
+
+/* Footer Popover */
+
+.popover-shark {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+.popover-shark-img {
+  position: relative;
+  background-color: #006aff;
+  padding: 2px;
+  width: 75px;
+  height: 65px;
+  border-radius: 5px;
+}
+
+.popover-shark-img img {
+  padding-top: 2px;
+  width: 100%;
+  height: auto;
+}
+
+.popover-shark-notification {
+  position: absolute;
+  top: -10%;
+  right: -10%;
+  background-color: #ff0006;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  line-height: 22px;
+  text-align: center;
+  border: 4px solid #fff;
+}
+
+.popover-shark-tooltip {
+  position: absolute;
+  top: 10%;
+  left: -300%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
 }
