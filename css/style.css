@@ -259,17 +259,19 @@ h5 {
 .platform .slide-img .slide-left-arrow {
   position: absolute;
   color: #6f7b97;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   left: -15%;
-  font-size: 60px;
+  font-size: 48px;
 }
 
 .platform .slide-img .slide-right-arrow {
   position: absolute;
   color: #031d4f;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   right: -15%;
-  font-size: 60px;
+  font-size: 48px;
 }
 
 .slide-undertitle {
@@ -380,16 +382,18 @@ h5 {
 .testimonials .slide-img .slide-left-arrow {
   position: absolute;
   color: #6f7b97;
-  top: 40%;
-  left: -5%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -15%;
   font-size: 30px;
 }
 
 .testimonials .slide-img .slide-right-arrow {
   position: absolute;
   color: #031d4f;
-  top: 40%;
-  right: -5%;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15%;
   font-size: 30px;
 }
 
