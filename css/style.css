@@ -5,6 +5,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+ul {
+  margin: 0;
+}
+
 .sm-wrapper {
   width: 80%;
   margin: auto;
@@ -147,6 +151,10 @@ h5 {
   padding: 15px 0;
 }
 
+.header_main_nav {
+  line-height: 34px;
+}
+
 .header_logo {
   width: 150px;
 }
@@ -250,10 +258,11 @@ h5 {
   font-size: 20px;
 }
 
-/* Slide Section */
+/* Platform Section */
 
 .xs-wrapper .slide-img {
   position: relative;
+  margin: 30px;
 }
 
 .platform .slide-img .slide-left-arrow {
@@ -278,7 +287,7 @@ h5 {
   font-size: 20px;
   color: #031d4f;
   text-align: center;
-  padding: 30px 0;
+  padding-bottom: 15px;
 }
 
 .platform .xs-wrapper ul {
@@ -292,7 +301,6 @@ h5 {
   border-radius: 50%;
 }
 .xs-wrapper li {
-  margin-top: 50px;
   background-color: #f3f5f9;
   padding: 5px;
   border: 1px solid #006aff;
