@@ -493,3 +493,20 @@ footer {
   top: 25%;
   left: -400%;
 }
+
+.shark-tooltip {
+  height: 75px;
+  width: 75px;
+  background-color: #006aff;
+}
+
+/* .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+} */

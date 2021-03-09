@@ -516,7 +516,10 @@
                 </div>
             </div>
 
-            <div class="popover-shark">
+
+            <a class="shark-tooltip" href="#" data-toggle="tooltip" title="Can I help answer any questions you have about DigitalOcean?"><img src="img/shark.png" alt="Shark"></a>
+            
+            <!-- <div class="popover-shark">
                 <div class="popover-img">
                     <img src="img/shark.png" alt="Shark">
                     <div class="popover-notification">2</div>
@@ -524,8 +527,14 @@
                         <div class="popover-shark-tooltip-bubble">Can I help answer any questions you have about DigitalOcean?</div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </footer>
+
+    <script>
+        $(document).ready(function(){
+          $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
 </body>
 </html>
